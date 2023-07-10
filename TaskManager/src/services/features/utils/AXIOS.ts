@@ -2,7 +2,7 @@ import axios from "axios";
 import { authTokenUpdate, logOut } from "../auth/authSlice";
 import store from "../../app/store";
 
-const baseURL = "https://quera-task-server.vercel.app/";
+const baseURL = "https://vercel.live/link/quera-task-server.vercel.app?via=project-overview-visit-button";
 
 let authToken = JSON.parse(localStorage.getItem("authToken") as string) || null;
 
