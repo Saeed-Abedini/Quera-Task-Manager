@@ -2,12 +2,30 @@ import { createSlice } from "@reduxjs/toolkit";
 
 type CalendarProps = {
   date: string;
-  ref: object;
+  ref: {
+    today: () => void;
+    nextYear: () => void;
+    prevYear: () => void;
+    incrementDate: (options: { month: number }) => void;
+  };
 };
 
 const initialState: CalendarProps = {
   date: "",
-  ref: {},
+  ref: {
+    today: function (): void {
+      throw new Error("Function not implemented.");
+    },
+    nextYear: function (): void {
+      throw new Error("Function not implemented.");
+    },
+    prevYear: function (): void {
+      throw new Error("Function not implemented.");
+    },
+    incrementDate: function (): void {
+      throw new Error("Function not implemented.");
+    },
+  },
 };
 
 const calendarSlice = createSlice({
