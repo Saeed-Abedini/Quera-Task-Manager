@@ -3,7 +3,7 @@ import { FieldValues } from "../../../pages/auth/Register";
 
 const API_URL = "https://quera-task-server.vercel.app/api/auth/";
 
-// Regiter user
+// Regiter users
 const register = async (userData: FieldValues) => {
   const response = await axios.post(API_URL + "register", userData);
   return response.data;
