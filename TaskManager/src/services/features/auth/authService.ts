@@ -31,7 +31,7 @@ const login = async (userData: FieldValues) => {
 
 // Forgot password
 const forgot = async (userEmail: FieldValues) => {
-  const response = await axios.post(API_URL + "/zforget-password", userEmail);
+  const response = await axios.post(API_URL + "/forget-password", userEmail);
 
   return response.data;
 };
