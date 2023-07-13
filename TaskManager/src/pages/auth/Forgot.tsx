@@ -46,10 +46,10 @@ const Forget = () => {
     }
   }, [isSuccess, isError, message, isLoading, Navigate, dispatch]);
 
-  const onSubmit = (data: FieldValues) => {
+  const onSubmit = ({ email }: FieldValues) => {
     dispatch(
       forgotPass({
-        email: data.email,
+        email: typeof email === "string" ? email.toLowerCase() : "",
       })
     );
   };
