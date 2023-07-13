@@ -39,7 +39,7 @@ AXIOS.interceptors.response.use(
     ) {
       // Redirect the user to the login page if refresh token is expired or invalid
       localStorage.removeItem("authToken");
-      window.location.href = "/login";
+      window.location.href = "https://quera-task-manager.onrender.com/login";
       return Promise.reject(error);
     }
 
@@ -76,7 +76,7 @@ AXIOS.interceptors.response.use(
         // Redirect the user to the login page if both tokens are expired or invalid
         // localStorage.removeItem("authToken");
         store.dispatch(logOut());
-        window.location.href = "/login";
+        window.location.href = "https://quera-task-manager.onrender.com/login";
         return Promise.reject(refreshError);
       }
     }
