@@ -51,12 +51,9 @@ AXIOS.interceptors.response.use(
         // Get a new access token using the refresh token
         const token = JSON.parse(localStorage.getItem("authToken") as string);
 
-        const response = await axios.post(
-          "http://localhost:3000/api/auth/refreshtoken",
-          {
-            refreshToken: token.refreshToken,
-          }
-        );
+        const response = await axios.post(baseURL + "/api/auth/refreshtoken", {
+          refreshToken: token.refreshToken,
+        });
 
         // Update the access token in local storage with the new token
 
