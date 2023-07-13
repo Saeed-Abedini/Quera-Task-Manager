@@ -1,17 +1,17 @@
 import axios from "axios";
 import { FieldValues } from "../../../pages/auth/Register";
 
-const API_URL = "https://quera-task-server.onrender.com/api/auth/";
+const API_URL = "https://quera-task-server.onrender.com/api/auth";
 
 // Regiter users
 const register = async (userData: FieldValues) => {
-  const response = await axios.post(API_URL + "register", userData);
+  const response = await axios.post(API_URL + "/register", userData);
   return response.data;
 };
 
 // Login user
 const login = async (userData: FieldValues) => {
-  const response = await axios.post(API_URL + "login", userData);
+  const response = await axios.post(API_URL + "/login", userData);
 
   if (response.data) {
     localStorage.setItem(
@@ -31,7 +31,7 @@ const login = async (userData: FieldValues) => {
 
 // Forgot password
 const forgot = async (userEmail: FieldValues) => {
-  const response = await axios.post(API_URL + "forget-password", userEmail);
+  const response = await axios.post(API_URL + "/zforget-password", userEmail);
 
   return response.data;
 };
