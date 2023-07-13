@@ -1,7 +1,7 @@
 import axios from "axios";
 import { FieldValues } from "../../../pages/auth/Register";
 
-const API_URL = "https://quera-task-server.onrender.com";
+const API_URL = "https://quera-task-server.onrender.com/api/auth/";
 
 // Regiter users
 const register = async (userData: FieldValues) => {
