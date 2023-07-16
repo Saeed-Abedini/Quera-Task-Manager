@@ -20,7 +20,11 @@ Task Manager is a project management tool that helps teams and individuals stay 
 9- Track overall project progress using the visual representation provided by boards.<br>
 We hope that Task Manager will greatly assist you and your team in managing tasks effectively and staying organized. Happy task management!
 
-## [Live demo](https://quera-task-manager.onrender.com/)
+## [Live demo](https://quera-task-manager.onrender.com/) 
+If you have no time to explore every feature of the app use this account <br>
+email: `user@gmail.com` <br>
+password: `User1234@`
+
 ### Dashboard layout
 ![2](https://github.com/Saeed-Abedini/Quera-Task-Manager/assets/58294372/31c5e07e-55a1-4cdd-ae47-a1c5e716933e) <br>
 ### Task info
