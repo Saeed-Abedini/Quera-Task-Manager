@@ -87,7 +87,6 @@ function ProjectList({ projects }: Projects) {
   // handle delete project
   const handleDeleteProject = () => {
     projectId && dispatch(deleteProject(projectId));
-    handleItemClick();
     dispatch(setSelectedProjectId(""));
     dispatch(setSelectedProject(""));
     dispatch(resetBoards());    
