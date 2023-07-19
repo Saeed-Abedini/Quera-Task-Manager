@@ -21,7 +21,7 @@ Task Manager is a project management tool that helps teams and individuals stay 
 We hope that Task Manager will greatly assist you and your team in managing tasks effectively and staying organized. Happy task management!
 
 ## [Live demo](https://quera-task-manager.vercel.app/)
-* Use a vpn, otherwise you will not be able to work with the app properly
+* Use a VPN, otherwise you will not be able to work with the app properly
 * If you have no time to explore every feature of the app use this account <br>
 email: `user@gmail.com` <br>
 password: `User1234@`
