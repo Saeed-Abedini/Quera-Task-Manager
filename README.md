@@ -16,8 +16,7 @@ Task Manager is a project management tool that helps teams and individuals stay 
 5. Start adding task cards to each board by specifying the necessary information such as task description, due date, and assignees.<br>
 6. Use the drag-and-drop functionality to move task cards between boards as they progress.<br>
 7. Collaborate with team members by assigning tasks and adding comments to task cards.<br>
-8. Regularly update task statuses and mark them as complete when finished.<br>
-9. Track overall project progress using the visual representation provided by boards.<br>
+8. Track overall project progress using the visual representation provided by boards.<br>
 We hope that Task Manager will greatly assist you and your team in managing tasks effectively and staying organized. Happy task management!
 
 ## [Live demo](https://quera-task-manager.vercel.app/)
