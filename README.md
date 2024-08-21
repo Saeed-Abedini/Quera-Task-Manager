@@ -1,25 +1,20 @@
-# Quera-Task-Manager
-
-Task Manager is a project management tool that helps teams and individuals stay organized and efficiently manage tasks. It provides the ability to create workspaces, projects, boards, and task cards.
+# Chat Messenger
 
 ## Features
-* Workspaces: Users can create workspaces to categorize their projects and tasks. Each workspace acts as a container for related projects.
-* Projects: Inside each workspace, users can create projects to group related tasks together. Projects help in organizing and tracking progress.
-* Boards: Within each project, users can create boards to represent different stages or categories of tasks. Boards provide a visual representation of progress and allow easy organization.
-* Task Cards: Users can create task cards within each board. Task cards contain important details such as task description, due date, and assignees. They serve as individual entities that can be easily managed and tracked.
+* User Interface: Designed an intuitive interface with two main sections:
+  * Contacts: Display registered users; redirect to chat pages for messaging.
+  * Conversations: Show list of message exchanges; navigate to detailed chat pages.
+* Real-Time Messaging: Utilized PusherJS for real-time message updates.
+* Group Chats: Create groups and chat with multiple users.
+* Status Indicators: Show online/offline status of users.
+* Message Features: Read receipts for sent messages.
+* User Profile: Editable profiles with name and photo updates using Cloudinary.
+* Media Sharing: Photo sending capability via Cloudinary.
+* Database: Managed user and message data with MongoDB and Prisma.
+* Theming: Supported light and dark themes, auto-applied based on device settings.
 
-## How to Use
-1. Sign up or log in to access the Task Manager platform.<br>
-2. Create a workspace for your team or personal projects.<br>
-3. Inside the workspace, create a new project by providing relevant details.<br>
-4. Once a project is created, you can further segment it by creating different boards based on stages or categories.<br>
-5. Start adding task cards to each board by specifying the necessary information such as task description, due date, and assignees.<br>
-6. Use the drag-and-drop functionality to move task cards between boards as they progress.<br>
-7. Collaborate with team members by assigning tasks and adding comments to task cards.<br>
-8. Track overall project progress using the visual representation provided by boards.<br>
-We hope that Task Manager will greatly assist you and your team in managing tasks effectively and staying organized. Happy task management!
 
-## [Live demo](https://quera-task-manager.vercel.app/)
+## [Live demo](https://chatmessenger-pro.vercel.app/)
 * Use a VPN, otherwise you will not be able to work with the app properly
 * If you have no time to explore every feature of the app use this account <br>
 email: `user@gmail.com` <br>
